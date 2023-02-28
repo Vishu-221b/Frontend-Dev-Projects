@@ -1,0 +1,37 @@
+.tab{
+    overflow : hidden;
+    border: 1px solid #ccc;
+    background-color:#f1f1f1;
+    Padding : 15px;
+}
+
+.tab button{
+
+    padding : 14px 16px;
+    border:none;
+    background-color: #2da4ff;
+    color:rgb(255, 255, 255);
+    float:left;
+    outline:none;
+    cursor:pointer;
+    transition: 0.3s;
+
+}
+
+.tab button:hover{
+
+    background-color:rgb(85, 85, 166);
+}
+
+.tab button.active
+{
+    background-color:aquamarine;
+}
+
+.tabcontent
+{
+border: 1px solid #ccc;
+padding: 6px 12px;
+border-top:none;
+display:;
+}
