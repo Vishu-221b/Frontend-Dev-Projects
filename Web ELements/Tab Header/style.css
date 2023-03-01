@@ -1,0 +1,46 @@
+/*Style the tab buttons:*/
+
+.tablink
+{
+background-color:chocolate;
+border:none;
+color:aliceblue;
+padding:15px 21px;
+float:left;
+cursor:pointer;
+outline:none;
+font-size:16px;
+width:25%;
+}
+
+.tablink:hover{
+    
+    background-color:blueviolet;
+
+}
+
+.tabcontent
+{
+    color:white;
+    background-color:rgb(66, 144, 158);
+    padding:50px;
+    text-align:center;
+}
+
+#london{
+    background-color:red;
+}
+
+#Paris{
+    background-color:green;
+}
+
+#Tokyo{
+    background-color:blue;
+}
+
+#Oslo
+{
+    background-color:rgba(255, 166, 0, 0.829);
+}
+
