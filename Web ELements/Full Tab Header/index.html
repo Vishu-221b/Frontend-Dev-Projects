@@ -9,10 +9,10 @@
 </head>
 <body>
 
-    <button class="tablink">Home</button>
-    <button class="tablink">News</button>
-    <button class="tablink">Contact</button>
-    <button class="tablink">About</button>
+    <button class="tablink" onclick="openPage('Home',this,'red')">Home</button>
+    <button class="tablink" onclick="openPage('News',this,'green')" id="defaultOpen">News</button>
+    <button class="tablink" onclick="openPage('Contact',this,'blue')">Contact</button>
+    <button class="tablink" onclick="openPage('About',this,'orange')">About</button>
 
 <div id="Home" class="tabcontent">
     <h3>Home</h3>
@@ -33,6 +33,9 @@
     <h3>About</h3>
     <p>Well, i won't tell anything about myself to you.</p>
 </div>
+
+<script src = "script.js">
+</script>
 
 
 </body>
