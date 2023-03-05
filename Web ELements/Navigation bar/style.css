@@ -1,0 +1,34 @@
+.nav
+{
+    background-color:bisque;
+    padding: 14px 16px;
+    overflow:hidden;
+}
+
+.nav button
+{
+    float:left;
+    margin: 4px;
+    padding: 8px 18px;
+    border:none;
+    background-color:rgba(0, 167, 223, 0.919);
+    
+    
+
+}
+
+.nav button a
+{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    font-size:14px;
+}
+.nav button:hover
+{
+    background-color:#c54c4c;
+}
+
+.nav button.active
+{
+    background-color:#c54c4c;
+}
